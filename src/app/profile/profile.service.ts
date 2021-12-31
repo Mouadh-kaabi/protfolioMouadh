@@ -134,31 +134,14 @@ export class ProfileService {
 
   educationData: any = [
     {
-      'id': '1',
-      'from_to_year': '2018 - 2021',
-      'education': 'Bachelor of Engineering',
-      'stream': 'Informatique',
-      'info': `The High School was mainly focus on the bases of computer science  , web development , and cyber security
-      There was also a good base on embedded computing  .`,
+     
       
     },
     {
-      'id': '2',
-      'from_to_year': '2012 - 2016',
-      'education': 'Higher Secondary',
-      'stream': 'Science and Mathematics',
-      'institution': 'GYANDEEEP VIDHYALAYA,AHMEDABAD',
-      'info': `The High School was mainly focus on the bases of science, mathematics, and Chemistry
-There was also a good base on physics, mathematics and chemistry.`
+      
     },
     {
-      'id': '3',
-      'from_to_year': '2012 - 2013',
-      'education': 'Secondary  School',
-      'stream': 'Science and Mathematics',
-      'institution': 'GYANDEEEP VIDHYALAYA,AHMEDABAD',
-      'info': `The Secondary aims at Maths , English , Science, Social Science, Litrature and Languages.
-Completed my Secondary school with 84%.`
+      
     }
   ];
   exprienceData: any = [
