@@ -14,8 +14,19 @@ export class ProfileService {
   ) { }
 
   projects:any = [
+
     {
       id: 1,
+      title: 'portfolio using Angular ',
+      desc: '',
+      
+      githurl: 'https://github.com/Mouadh-kaabi/protfolioMouadh',
+     
+      imgUrl: 'assets/images/git7.png',
+      tech: 'Angular'
+    },
+    {
+      id: 2,
       title: 'Crud operation using MEAN stack',
       desc: '',
       
@@ -25,8 +36,10 @@ export class ProfileService {
       tech: 'MongoDB , Ewpress , Angular , Node'
     },
 
+  
+
     {
-      id: 2,
+      id: 3,
       title: 'Ecomerce App Using MEAN Stack',
       desc: '',
      
@@ -40,7 +53,7 @@ export class ProfileService {
  
 
     {
-      id: 3,
+      id: 4,
       title: 'snake game  using JavaScript',
       desc: '',
       
@@ -51,7 +64,7 @@ export class ProfileService {
     },
 
     {
-      id: 4,
+      id: 5,
       title: 'stock management  using Spring Boot',
       desc: '',
       
@@ -62,7 +75,7 @@ export class ProfileService {
     },
 
     {
-      id: 5,
+      id: 6,
       title: ' management of doctors appointments DOCTPRIF using Spring Boot , Angular ',
       desc: '',
       
@@ -73,7 +86,7 @@ export class ProfileService {
     },
 
     {
-      id: 6,
+      id: 7,
       title: ' bank account management  using Spring Boot , Angular ',
       desc: '',
       
@@ -169,7 +182,7 @@ export class ProfileService {
       company: 'Rassemblement des ingénieurs francophone	',
       location: 'Remote',
       timeline: 'Avr 2020 to Dec 2020',
-      role: 'Full Stack  Developer',
+      role: 'Full Stack Developer',
       work: `Technologies : Angular , Spring Boot , Spring Eureka , Spring cloud  , postgresql , Micro services . 
       Research, design and develop the micro-service architecture . Develop a web application made appointments for doctors . 
       Maintenance and correction of bugs `
