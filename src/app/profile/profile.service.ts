@@ -169,6 +169,8 @@ export class ProfileService {
     },
     {
       id: 3,
+
+      
       company: 'Freelance ',
       location: 'Remote',
       timeline: 'Nov 2020 to Dec 2020',
@@ -179,11 +181,11 @@ export class ProfileService {
 
     {
       id: 2,
-      company: 'Rassemblement des ingénieurs francophone	',
+      company: 'Rassemblement des ingénieurs francophone   	',
       location: 'Remote',
       timeline: 'Avr 2020 to Dec 2020',
       role: 'Full Stack Developer',
-      work: `Technologies : Angular , Spring Boot , Spring Eureka , Spring cloud  , postgresql , Micro services . 
+      work: `Technologies : Angular     , Spring Boot , Spring Eureka , Spring cloud  , postgresql , Micro services . 
       Research, design and develop the micro-service architecture . Develop a web application made appointments for doctors . 
       Maintenance and correction of bugs `
     },
